@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: black; 
+    display:flex;
+flex-direction: column;
+color: white;
+}
+main{
+  margin-left: 36px;
+}
+.sidebar{
+  font-family: 'Roboto', sans-serif;
+  background-color: #9fd0ec;
+  width: 14em;
+  transition: transform .3s ease-in;
+}
+.ff{
+  height: 122em;
+}
+.gg{
+  height: 145em;
+}
+.hh{
+  height: 44em;
+}
+.ii{
+  height: 118em;
+}
+.sidebar nav li{
+  padding: 3em 2em 1em 2em;
+  font-size: 1.5em;
+}
+.sidebar li a{
+  text-decoration: none;
+  /* color:white; */
+  color:black;
+}
+.sidebarGo{
+  transform: translate(-14em,0);
+  position: absolute;
+}
+.hambrgr{
+ position: absolute;
+ cursor: pointer;
+ top: 13px;
+    left: 11px;
+    transition: transform .3s ease-in; 
+}
+.cross{
+  margin-left: 10.5em;
+}
+.devPic img{
+  margin-top: 5.5em;
+  width: 30em;
+  height: 25em;
+}
+.hello{
+font-size: 1.2em;
+ font-weight: bold;
+}
+.my{
+font-size: 1.2em;
+}
+.name{
+  font-family: 'Montserrat', sans-serif;
+  color: #223697f8;
+  font-weight: 1000;
+  font-size: 1.4em;
+}
+.rest{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2em;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: .8em;
+}
+.buttons button:hover{
+  color: #0570bd;
+  background-color: whitesmoke;
+}
+.buttons button{
+  margin: 0 .5em;
+  padding: 0.1em 1em;
+    border-radius: 12em;
+    border-color: aquamarine;
+  border-color: rgb(222, 255, 255);
+  font-size: 1.2em;
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+}
+.devInfo{
+  display: flex;
+  flex-direction: column;
+  margin: 19em 1.7em 22em 6em;
+  justify-content: space-evenly;
+}
+.info{
+  justify-items: center;
+  font-family: 'Open Sans', sans-serif;
+  height: 45em;
+    width: 67em;
+  display: flex;
+  justify-content: space-around;
+}
+.main{
+  /* background-color: greenyellow; */
+  width: 68em;
+}
+.container{
+  display: flex;
+}
+
+/* contact me.html */
+.cont{
+  width: 33em;
+  display: flex;
+  /* margin:125em 30em 0em 0em; */
+  text-align: left;
+}
+.section{
+  margin-top: 24.5%;
+}
+.sec1{
+  width: 19em;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 3.5em;
+    padding-left: 1.9em;
+    /* margin-left: 50em; */
+    font-size: 2.3em;
+ }
+ span{
+ font-weight: bolder;
+ }
+ .sec2{
+  width: 40em;
+  margin-right: 8em;
+  margin-left: 3em;
+ }
+h1{
+  text-align: center;
+  margin-top: 1.4em;
+}
+.mm{  
+  margin-bottom: 3em;
+  padding: 1em 3em 3em 3em;
+  font-size: 1.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: .6em; 
+  background-color: #294db9;
+  width: 31rem;
+}
+/* .connect1{
+  padding-bottom: 8em;
+} */
+.form-group{
+ padding: 1.5em 3em 0 1.5em;
+}
+.form-pnum{
+  padding: .5em 3em 0 1.5em;
+}
+.form-text-label{
+  margin-bottom: .5em;
+}
+.message{
+  font-family: 'Nunito Sans', sans-serif;
+  display:flex;
+flex-direction: column;
+  padding: .2em 2em 0 1.5em;
+}
+.butn{
+  text-align: center;
+  /* margin-bottom: 30em; */
+}
+.btn{
+  border-color: aquamarine;
+  border-color: rgb(222, 255, 255);
+  cursor: pointer;
+  font-size: 1em;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: .5em 2em .5em 2em;
+    margin-top: 1em;
+  border-radius: 11em;
+}
+#terms{
+  margin: .4em 2.5em .5em 2.2em;
+  font-size: .7em;
+}
+#email{
+  width: 17em;
+  padding-left: .5em;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#Pnumber{
+  width: 12em;
+  padding-left: .5em;
+  font-family: 'Nunito Sans', sans-serif;
+}
+span{
+  font-family: 'Pacifico', cursive;
+  /* font-family: 'Fasthand', cursive; */
+}
+
+/* index part2 css */
+.section2{
+  margin: 0em 0em 0em 20em;
+  padding-top: 3em;
+}
+.parts{
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+  margin-top: 3em;
+  justify-items: center;
+}
+.skills{
+  width: 32em;
+  margin-top: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+.education{
+  width: 32em;
+  
+  /* margin-left: 100em; */
+}
+.personality {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 100em; */
+  width: 32em;
+
+}
+.skilist{
+  width: 32em;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+h3{
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: .3em;
+}
+.list{
+  /* width: 26em; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 2em;
+  justify-content: flex-start;
+}
+.pv1,.pv2{
+  list-style: none;
+  margin: 0 0 1em 0;
+}
+.fieldOfInterest{
+  justify-items: center;
+  margin: 3em 0em 0em 0em;
+  width: 32em;
+  height: 18em;
+}
+.ulists{
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+}
+.foi1,.foi2,.foi3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 8em;
+  list-style: none;
+}
+span{
+  font-weight: bolder;
+}
+li{
+  list-style: none;
+  width: 22em;
+  padding: .3em;
+}
+table{
+  margin-top: 2em;
+  width: 100%;
+}
+
+/* projects css */
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+.underline{
+  height: 0.25rem;
+  width: 5rem;
+  background: #0570bd;
+  margin: auto auto;
+}
+.title h2{
+  margin:2em 0 0.4em 10.2em;
+  font-size: 2.9em;
+}
+#pro-image{
+  display: block  ;
+  height: 22rem;
+  width: 40rem;
+  margin: 3rem 0 0 14.3em;
+}
+#lang,#p-name{
+  color: white;
+  margin: 2rem 0 0 0;
+  font-size: 2em;
+}
+.des{
+  position: absolute;
+  top:0;
+  left: 14.3em;
+  width: 40em;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: transform 0.25s;
+}
+.des >*{
+  transform: translateY(20px);
+  transition: transform 0.25s; 
+}
+.des:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.des:hover >*{
+  transform: translateY(0);
+}
+.img-container{
+  position: relative;
+}
+
+/* blogs css */
+.whole{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+.mainSec{
+  margin: 2rem 7rem 4rem 15.5rem;
+}
+.artcls{
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+  margin: 3em 3em 5em 3em;
+  text-align: justify;
+  padding: 2rem;
+  width: 30rem;
+  
+}
+.b{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 2em;
+  font-size: 1em;
+}
+h2{
+  text-align: left;
+  margin: .5em .5em .5em 0;
+}
